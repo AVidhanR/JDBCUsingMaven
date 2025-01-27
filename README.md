@@ -9,7 +9,7 @@ This is a simple implementation of JDBC Connection only using `maven` and `mysql
 CREATE SCHEMA Users;
 
 CREATE TABLE UserDetails (
-	username TEXT NOT NULL,
+    username TEXT NOT NULL,
     pwd TEXT NOT NULL
 );
 
