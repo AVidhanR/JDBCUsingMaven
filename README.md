@@ -36,7 +36,7 @@ VALUES
 
 - Right-click on the `pom.xml` -> under `maven` -> `sync project` and it's done.
 - Now you can run this project by executing the [`JDBCMySQLConnector.java`](src/main/java/itsvidhanreddy/JDBCMySQLConnector.java) file.
-- Inorder to run the `Prepared Statement` Demo by executing the [`JDBCPreparedStatement`](src/main/java/itsvidhanreddy/JDBCPreparedStatement.java) file.
+- Inorder to run the `Prepared Statement` Demo by executing the [`JDBCPreparedStatement`](src/main/java/itsvidhanreddy/JDBCPreparedStatement.java) file. 
 
 - Visit my linkedin profile from [here](https://linkedin.com/in/AVidhanR)
 
