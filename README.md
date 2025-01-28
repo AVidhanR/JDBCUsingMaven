@@ -6,14 +6,19 @@ This is a simple implementation of JDBC Connection only using `maven` and `mysql
 - Add the below code onto the new `.sql` file
   
 ```sql
-CREATE SCHEMA Users;
+CREATE SCHEMA users;
 
-CREATE TABLE UserDetails (
-    username TEXT NOT NULL,
-    pwd TEXT NOT NULL
+CREATE TABLE user_details (
+    id SERIAL PRIMARY KEY,
+	username TEXT NOT NULL,
+    phone_number VARCHAR(15) NOT NULL
 );
 
-INSERT INTO UserDetails VALUES ("Vidhan Reddy", "Vin"), ("Vijay", "Thalapathi"); 
+INSERT INTO 
+	user_details 
+VALUES 
+	(1, "Vidhan", "+91 1234567890"), 
+	(2, "Vin", "+01 0987654321");
 ```
 
 - Save it and add below dependency onto the `pom.xml` file
