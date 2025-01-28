@@ -12,7 +12,10 @@ public class JDBCMySQLConnector {
     String displayQuery = "SELECT id, username FROM user_details;";
 
     String insertQuery = """
-        INSERT INTO user_details VALUES (4, "Sujay", "+92 9332929292");
+        INSERT INTO
+          user_details
+        VALUES
+          (4, "Sujay", "+92 9332929292");
         """;
 
     try {
