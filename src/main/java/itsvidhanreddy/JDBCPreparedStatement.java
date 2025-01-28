@@ -23,18 +23,10 @@ public class JDBCPreparedStatement {
     try {
       Connection con = DriverManager.getConnection(url, username, password);
       PreparedStatement pst = con.prepareStatement(preparedQuery);
-      System.out.print("Enter id: ");
-      int user_id = sc.nextInt();
 
-      System.out.print("Enter username: ");
-      String name = sc.nextLine();
-
-      System.out.print("Enter phone_number: ");
-      String phone_number = sc.nextLine();
-
-      pst.setInt(1, user_id);
-      pst.setString(2, name);
-      pst.setString(3, phone_number);
+      pst.setInt(1, 7);
+      pst.setString(2, "Anju");
+      pst.setString(3, "+91 6372819187");
 
       effectedRows = pst.executeUpdate();
 
