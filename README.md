@@ -38,6 +38,6 @@ VALUES
 - Now you can run this project by executing the [`JDBCMySQLConnector.java`](src/main/java/itsvidhanreddy/JDBCMySQLConnector.java) file.
 - Inorder to run the `Prepared Statement` Demo by executing the [`JDBCPreparedStatement`](src/main/java/itsvidhanreddy/JDBCPreparedStatement.java) file. 
 
-- Visit my linkedin profile from [here](https://linkedin.com/in/AVidhanR)
+- Visit my LinkedIn profile from [here](https://linkedin.com/in/AVidhanR)
 
 $$By\text{ }AVidhanR$$
