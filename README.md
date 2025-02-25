@@ -40,4 +40,4 @@ VALUES
 
 - Visit my LinkedIn profile from [here](https://linkedin.com/in/AVidhanR)
 
-$$By\text{ }AVidhanR$$
+_AVidhanR_
